@@ -1,0 +1,40 @@
+/* SHADCN UI OVERRIDES */
+
+:root {
+    --radius: 0.5rem;
+    --background: #ffffff;
+    --foreground: #0f172a;
+    --primary: #2563eb;
+    --primary-foreground: #ffffff;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #0f172a;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --accent: #dbeafe;
+    --accent-foreground: #1e40af;
+    --border: #e2e8f0;
+    --ring: #2563eb;
+  }
+  
+  .dark {
+    --background: #0b0e14;
+    --foreground: #e2e8f0;
+    --primary: #3b82f6;
+    --primary-foreground: #0b0e14;
+    --secondary: #1e293b;
+    --secondary-foreground: #e2e8f0;
+    --muted: #1e293b;
+    --muted-foreground: #94a3b8;
+    --accent: #1e3a8a;
+    --accent-foreground: #dbeafe;
+    --border: #334155;
+    --ring: #3b82f6;
+  }
+  
+  .component {
+    border-radius: var(--radius);
+    border-color: var(--border);
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+  
