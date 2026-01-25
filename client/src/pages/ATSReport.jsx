@@ -12,7 +12,7 @@ const ATSReport = () => {
       wordCount: 0,
       bullets: 0,
       sections: { contact: false, skills: false, experience: false, education: false, projects: false, summary: false },
-      issues: ["No ATS report available. Upload your resume to see results."]
+      issues: ["No ATS report available. Upload your resume to see result."]
     }
   };
 
