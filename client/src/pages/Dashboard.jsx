@@ -33,7 +33,7 @@ const Dashboard = () => {
       border: 'border-blue-500/20'
     },
     {
-      title: 'Upload Resume',
+      title: 'Upload Your Resume',
       description: 'Upload your existing resume for analysis.',
       icon: <Upload className="w-6 h-6 text-emerald-400" />,
       link: '/resume-upload',
