@@ -4,4 +4,3 @@ export const cosineSimilarity = (vecA = [], vecB = []) => {
     const magB = Math.sqrt(vecB.reduce((acc, val) => acc + val * val, 0));
     return magA && magB ? dot / (magA * magB) : 0;
   };
-  

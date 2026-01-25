@@ -8,4 +8,3 @@ export const matchJobsBySkills = (jobs, skills = []) => {
       return { ...job._doc, matched, score };
     });
   };
-  

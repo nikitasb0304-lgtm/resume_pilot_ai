@@ -11,4 +11,3 @@ export const computeATSScore = (resumeText, jobText) => {
   
     return { score, matched, missing };
   };
-  

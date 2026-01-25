@@ -5,4 +5,3 @@ export const extractKeywords = (text) => {
       .match(/\b[a-z]{2,}\b/g)
       ?.filter((word) => !stopwords.includes(word)) || [];
   };
-  

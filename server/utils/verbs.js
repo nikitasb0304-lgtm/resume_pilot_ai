@@ -11,4 +11,3 @@ export const actionVerbs = [
     "refactored",
     "integrated"
   ];
-  

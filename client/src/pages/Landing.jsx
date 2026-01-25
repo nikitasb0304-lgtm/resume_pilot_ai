@@ -46,7 +46,7 @@ const Landing = () => {
                 <FileText className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
-                ResumePilot AI
+                Resume Pilot AI
               </span>
             </motion.div>
             <motion.div 
