@@ -3,6 +3,11 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import atsRoutes from './routes/ats.js';
+import authRoutes from './routes/auth.js';
+import resumeRoutes from './routes/resume.js';
+import aiRoutes from './routes/ai.js';
+import jobsRoutes from './routes/jobs.js';
+import billingRoutes from './routes/billing.js';
 
 dotenv.config();
 
@@ -34,7 +39,12 @@ app.get('/api/test', (req, res) => {
 });
 
 // Mount routes
+app.use('/api/auth', authRoutes);
 app.use('/api/ats', atsRoutes);
+app.use('/api/resume', resumeRoutes);
+app.use('/api/ai', aiRoutes);
+app.use('/jobs', jobsRoutes);
+app.use('/api/billing', billingRoutes);
 
 // Catch-all 404 for debugging
 app.use('*', (req, res) => {
