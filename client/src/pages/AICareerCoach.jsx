@@ -166,5 +166,4 @@ const AICareerCoach = () => {
     </div>
   );
 };
-
 export default AICareerCoach;
