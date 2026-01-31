@@ -8,6 +8,6 @@ export const useATS = () => {
       return data
     },
   })
-
+  
   return { analyzeResume }
 }
